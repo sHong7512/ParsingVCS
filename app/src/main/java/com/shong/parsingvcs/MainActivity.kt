@@ -7,6 +7,8 @@ import android.widget.TextView
 import kotlinx.coroutines.*
 import java.net.URL
 
+// 안드로이드 캘린더용 VCS 변환
+// 파일.vcs -> text -> devide -> intent(calendar)
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
